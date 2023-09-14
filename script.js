@@ -25,7 +25,9 @@ rectangle.addEventListener("mousemove", function (event) {
     // console.log(rectangle.getBoundingClientRect());
 })
 
-
+rectangle.addEventListener('mouseleave',function(event){
+    rectangle.style.backgroundColor='rgb(255,255,255)';
+});
 
 // rectangle.addEventListener('mousemove', (event) => {
 //     console.log("mouse");
